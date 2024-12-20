@@ -1,9 +1,6 @@
 const SS_ID = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');
 const NOW = new Date();
 
-/**
- * 要トリガー（５分毎に実行）
- */
 function main() {
   const data = getNatureRemoData(); // Remo本体のデータ取得
 
